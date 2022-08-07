@@ -1,0 +1,35 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+
+    &-header {
+        border: 1px solid aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        h2 {
+            text-align: center;
+            font-family: "Pacifico", cursive;
+            color: aliceblue;
+        }
+    }
+    &-body {
+        width: 100%;
+    }
+    &-footer {
+        justify-content: flex-end;
+        display: flex;
+        column-gap: 10px;
+        font-family: "Quicksand", sans-serif;
+        border-top: 1px solid aliceblue;
+
+        a {
+            color: rgb(255, 255, 255);
+        }
+    }
+}

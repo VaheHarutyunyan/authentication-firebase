@@ -1,0 +1,64 @@
+.container-dnd {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 20px;
+    .dnd-header {
+        display: flex;
+        margin-bottom: 40px;
+        padding-bottom: 10px;
+        box-shadow: 0 1px 0 #091e4240;
+
+        button {
+            border: none;
+            border-radius: 10px;
+        }
+    }
+    .dnd-body {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        column-gap: 20px;
+    }
+}
+
+.column-dnd {
+    height: max-content;
+    width: 25%;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #ebecf0;
+
+    p {
+        width: 100%;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #fafdff;
+        font-family: "Quicksand", sans-serif;
+        font-weight: 800;
+    }
+}
+
+.movable-item {
+    border-radius: 5px;
+    background-color: #fafdff;
+    height: 80px;
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .slate--card {
+        height: 80px;
+        width: 100%;
+        overflow: auto;
+        padding: 5px;
+        overflow-wrap: normal;
+        background-color: #fff;
+        border-radius: 3px;
+        box-shadow: 0 1px 0 #091e4240;
+    }
+}

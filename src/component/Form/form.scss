@@ -1,0 +1,31 @@
+.form-container {
+  .ant-row.ant-form-item-row {
+    flex-direction: column;
+    .ant-input-affix-wrapper {
+      border-radius: 8px;
+      height: 40px;
+      input {
+        background: none;
+      }
+    }
+
+    .ant-form-item-label {
+      text-align: left;
+      font-family: "Pacifico", cursive;
+    }
+    .ant-col-offset-8 {
+      margin-left: 0;
+      max-width: 100%;
+      .ant-form-item-control-input-content {
+        display: flex;
+        justify-content: center;
+
+        .ant-btn {
+          font-family: "Quicksand", sans-serif;
+          border: none;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}

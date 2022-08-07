@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  font-style: normal;
+  background: linear-gradient(120deg, #414b56, #00a2e1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+@import "./assets/font.scss";
